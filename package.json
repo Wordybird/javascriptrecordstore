@@ -1,0 +1,22 @@
+{
+  "name": "weekend_homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"mocha record_store_specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wordybird/javascriptrecordstore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wordybird/javascriptrecordstore/issues"
+  },
+  "homepage": "https://github.com/Wordybird/javascriptrecordstore#readme",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
+}
