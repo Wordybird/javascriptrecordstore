@@ -16,6 +16,12 @@ RecordStore.prototype = {
   },
   displayRecords: function() {
     return this.records;
+  },
+  sellRecord: function(price) {
+    return this.records.pop(function(record) {
+      var newBalance = record.price;
+  }.bind(this));
+  this.balance += newBalance;
   }
 }
 

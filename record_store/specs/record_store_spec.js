@@ -40,4 +40,10 @@ describe('RecordStore', function() {
     assert.deepEqual(['Led Zeppelin',13.50,'When The Levee Breaks'], record_store.displayRecords());
   });
 
+  it('should sell a record and change balance', function() {
+    record_store.addRecord(record2);
+    record_store.sellRecord(record2);
+    assert.equal(15.75, record_store.balance);
+  });
+
 });
