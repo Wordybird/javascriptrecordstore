@@ -22,6 +22,10 @@ describe('RecordStore', function() {
     assert.equal('Ricki Music', record_store.name);
   });
 
+  it('should have no money at the start', function() {
+    assert.equal(0, record_store.balance);
+  });
+
   it('should have a city', function() {
     assert.equal('Edinburgh', record_store.city);
   });

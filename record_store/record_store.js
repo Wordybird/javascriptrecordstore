@@ -2,6 +2,7 @@ var RecordStore = function(name, city) {
   this.name = name;
   this.city = city;
   this.records = [];
+  this.balance = 0;
 }
 
 RecordStore.prototype = {
