@@ -34,4 +34,10 @@ describe('RecordStore', function() {
     record_store.addRecord(record1);
     assert.deepEqual([record1], record_store.findRecordByArtist('Led Zeppelin'));
   });
+
+  it('should display all records', function() {
+    record_store.addRecord(record1);
+    assert.deepEqual(['Led Zeppelin',13.50,'When The Levee Breaks'], record_store.displayRecords());
+  });
+
 });

@@ -13,6 +13,9 @@ RecordStore.prototype = {
     return this.records.filter(function(record) {
       return record.artist === artist;
     });
+  },
+  displayRecords: function() {
+    return this.records;
   }
 }
 
